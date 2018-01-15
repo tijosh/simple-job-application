@@ -1,0 +1,90 @@
+h1 {
+  font-size: 3em;
+  font-family: Lato;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  color: #56C187;
+}
+
+label {
+  font-family: Merriweather;
+  color: #314138;
+  font-size: 1.5em;
+}
+
+input {
+  width: 100%;
+  margin-bottom: 2em;
+  margin-top: .75em;
+  padding: .5em;
+  font-size: 1em;
+  color: #314138;
+  font-family: Lato;
+}
+
+
+select {
+  margin-top: 1em;
+  width: 100%;
+  font-size: 1em;
+  font-family: lato;
+}
+
+textarea {
+  width: 100%;
+  margin-top: 1em;
+  color: #314138;
+  font-size: 1em;
+  font-family: Lato;
+}
+
+
+#mainContent {
+  max-width: 600px;
+  background-color: #eaeaea;
+  margin: auto;
+  text-align: center;
+}
+
+#formContent {
+  max-width: 400px;
+  text-align: left;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+#basicInfo {
+  margin-bottom: 40px;
+}
+
+#workEligibility {
+  margin-bottom: 50px;
+}
+
+#educationHistory {
+  margin-bottom: 40px;
+}
+
+#workHistory {
+  margin-bottom: 40px;
+}
+
+#statement {
+  font-size: 1em;
+  margin-bottom: 25px;
+  text-align: justify;
+}
+
+#resumeUpload {
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+.buttonClass {
+  width: 100%;
+  background-color: #56C187;
+  height: 2em;
+  font-family: Lato;
+  font-size: 2em;
+  color: white;
+}

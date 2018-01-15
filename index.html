@@ -4,60 +4,95 @@
 
   <title>A Simple Form</title>
 
+  <link href="http://fonts.googleapis.com/css?family=lato|merriweather" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" href="styles.css">
+
 </head>
 
 <body>
 
-  <h1>Job Application</h1>
+  <div id="mainContent">
 
-  <form  action="index.html" method="post">
+    <h1>Job Application</h1>
 
-    <label for="firstname">First Name</label><br>
-      <input type="text" id="firstname"><br>
+    <section id="formContent">
 
-    <label for="lastname">Last Name</label><br>
-      <input type="text" id="lastname"><br>
+      <form  action="index.html" method="post">
 
-    <label for="useremail">Email</label><br>
-      <input type="email" name="useremail"><br>
+        <div id="basicInfo">
 
-    <label for="phone">Phone</label><br>
-      <input type="tel" name="phone"><br>
+          <label for="firstname">First Name</label><br>
+            <input type="text" id="firstname"><br>
 
-    <label for="age">Age</label><br>
+          <label for="lastname">Last Name</label><br>
+            <input type="text" id="lastname"><br>
 
-      <input id="age" type="number"><br>
+          <label for="useremail">Email</label><br>
+            <input type="email" name="useremail"><br>
 
-    <label for="eligibility">Are you legally authorized to work in the United States?</label><br>
+          <label for="phone">Phone</label><br>
+            <input type="tel" name="phone"><br>
 
-      <select name="eligibility"><br>
+          <label for="age">Age</label><br>
+            <input id="age" type="number"><br>
 
-          <option value="yes">Yes</option>
-          <option value="no">No</option>
-          <option value="unknown">Don't Know</option>
+        </div>
 
-      </select><br>
+        <div id="workEligibility">
 
-      <label for="education">Please provide your education history</label><br>
+          <label for="eligibility">Are you legally authorized to work in the United States?</label><br>
 
-        <textarea id="education" rows="10" cols="50"></textarea><br>
+            <select name="eligibility"><br>
 
-      <label for="work">Please provide your work history</label><br>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+                <option value="unknown">Don't Know</option>
 
-        <textarea id="work" rows="10" cols="50"></textarea><br>
+            </select><br>
 
-      <label for="resume">If you have a resume, you can upload it here:</label><br>
-        <input id="resume" type="file"><br>
+        </div>
 
-      <label for="signature">Please type your full name here. By entering your name, you certify that the above information is, to your knowledge, accurate.</label><br>
-        <input id="signature"type="text"><br>
+        <div id="educationHistory">
 
-      <button type="submit">Submit</button>
+          <label for="education">Please provide your education history:</label><br>
+
+            <textarea id="education" rows="7"></textarea><br>
+
+        </div>
+
+        <div id="workHistory">
+
+          <label for="work">Please provide your work history:</label><br>
+
+            <textarea id="work" rows="7"></textarea><br>
+
+        </div>
+
+        <div id="resumeUpload">
+
+          <label for="resume">If you have a resume, you can upload it here:</label><br>
+            <input id="resume" type="file"><br>
+
+        </div>
+
+        <div id="statement">
+
+          <label for="signature">By typing my name in the line below, I hereby attest that all of the information I have provided is true and correct to the best of my knowledge:</label><br>
+            <input id="signature"type="text"><br>
+
+        </div>
+
+          <button type="submit" class="buttonClass">Submit</button>
+
+        </form>
+
+      </section>
+
+    </div>
 
 
-
-
-  </form>
+    </form>
 
 
 
